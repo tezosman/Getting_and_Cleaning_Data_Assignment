@@ -1,10 +1,12 @@
-:Code Book
+Code Book
+======================================
 
 This codebook describes all of the respective data, variables and subsequent transformations needed to clean the Human Activity Recognition Using Smartphones Data Set 
  for the assignment component of Coursera’s getting and cleaning data assignment.
 
 
 Data source
+======================================
 
 The original original data can be found at the following link:
 
@@ -16,6 +18,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 
 Data Set information:
+======================================
 
 Experiments have been carried out on a group of 30 volunteers with the ages of 19-48 years old.  Each person performed 6 activities: (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
 
@@ -33,15 +36,16 @@ For each record it is provided:
 - An identifier of the subject who carried out the experiment.
 
 Data and respective files:
+======================================
 
 The dataset includes the following files:
-=========================================
 
 - 'README.txt'
 
 - 'features_info.txt': Shows information about the variables used on the feature vector.
 
-- 'features.txt': List of all features.
+- 'features.txt': List of all features
+.
 
 - 'activity_labels.txt': Links the class labels with their activity name.
 
@@ -83,6 +87,7 @@ Create a second independent tidy data set with the average of each variable for 
 
 
 Dependencies:
+======================================
 
 reshape2 and data.table libraries are requires to run run_analysis.R
 
