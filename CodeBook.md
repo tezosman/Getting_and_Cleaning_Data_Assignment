@@ -89,6 +89,6 @@ Create a second independent tidy data set with the average of each variable for 
 Dependencies:
 ======================================
 
-reshape2 and data.table libraries are requires to run run_analysis.R
+reshape2 and data.table libraries are required to run run_analysis.R
 
 
